@@ -1,0 +1,16 @@
+{
+	"name": "sendfeather-wordpress",
+	"version": "1.0.0",
+	"description": "Sendfeather SMTP — WordPress plugin (development repo).",
+	"license": "GPL-2.0-or-later",
+	"private": true,
+	"scripts": {
+		"env:start": "wp-env start",
+		"env:stop": "wp-env stop",
+		"env:clean": "wp-env clean all",
+		"build:zip": "bash dev/scripts/build-zip.sh"
+	},
+	"devDependencies": {
+		"@wordpress/env": "^10.0.0"
+	}
+}

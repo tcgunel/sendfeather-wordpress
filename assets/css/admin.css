@@ -1,0 +1,44 @@
+/* Sendfeather SMTP — settings screen styles. */
+.sendfeather-settings .sendfeather-intro {
+	max-width: 46rem;
+}
+
+.sendfeather-settings fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+.sendfeather-settings .sendfeather-radio {
+	display: block;
+	margin: 0 0 12px;
+}
+
+.sendfeather-settings .sendfeather-radio input {
+	margin-right: 6px;
+}
+
+.sendfeather-settings .sendfeather-field .description {
+	max-width: 40rem;
+}
+
+.sendfeather-settings .sendfeather-test-result {
+	max-width: 46rem;
+	margin: 8px 0 0;
+	padding: 10px 12px;
+	border-left: 4px solid #72aee6;
+	background: #f6f7f7;
+}
+
+.sendfeather-settings .sendfeather-test-result.is-success {
+	border-left-color: #00a32a;
+}
+
+.sendfeather-settings .sendfeather-test-result.is-error {
+	border-left-color: #d63638;
+}
+
+.sendfeather-settings .sendfeather-test-spinner {
+	float: none;
+	margin: 0 0 0 6px;
+	vertical-align: middle;
+}

@@ -1,0 +1,13 @@
+# Files and folders excluded from the wordpress.org SVN / release zip.
+.distignore
+.git
+.github
+.gitignore
+node_modules/
+vendor/
+dist/
+dev/
+package.json
+package-lock.json
+README.md
+assets/images/

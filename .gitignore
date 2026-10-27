@@ -1,0 +1,7 @@
+node_modules/
+dist/
+vendor/
+composer.lock
+.DS_Store
+*.log
+.wp-env.override.json
